@@ -1,0 +1,6 @@
+deps: 
+- apt-get update
+- apt-get -y upgrade
+- apt-get install -y python3
+daemons: []
+run: python3 echo.py
